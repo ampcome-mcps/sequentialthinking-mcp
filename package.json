@@ -19,7 +19,8 @@
 		"dev": "npx @modelcontextprotocol/inspector dist/index.js",
 		"changeset": "changeset",
 		"version": "changeset version",
-		"release": "pnpm run build && changeset publish"
+		"release": "pnpm run build && changeset publish",
+		"prepare": "npm run build"
 	},
 	"keywords": [
 		"mcp",
